@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<style>
+    .navbar{
+    position:fixed;
+    }
+</style>
+<body  class="p-3 mb-2 bg-secondary text-white" >
+<nav  class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html"></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+</nav>
+<form action="./ComputerParts" method="post">
+    <h1 style="allign-center">Computer parts</h1>
+    <label  class="form-label">Brand:</label>
+    <select class="form-select" name="brand" aria-label="Default select example">
+        <option selected>Select Brand</option>
+        <option  value="Acer">Acer</option>
+        <option  value="Apple">Apple</option>
+        <option  value="Dell">Dell</option>
+        <option  value="Hp">HP</option>
+        <option  value="Lenovo">Lenovo</option>
+    </select>
+    <div class="mb-3">
+        <label for="1" class="form-label">Model:</label>
+        <input type="text" name="model"  class="form-control" id="1" aria-describedby="emailHelp"
+               placeholder="Enter model here">
+        <div id="model" class="form-text"></div>
+    </div>
+    <div>
+        <label  class="form-label">Color:</label>
+        <select class="form-select" name="color" aria-label="Default select example">
+            <option selected>Select color</option>
+            <option  value="Black">Black</option>
+            <option  value="gray">gray</option>
+            <option  value="silver">silver</option>
+            <option  value="White">White</option>
+        </select>
+    </div>
+    <div>
+
+        <label  class="form-label">Type:</label>
+        <select class="form-select" name="Type" aria-label="Default select example">
+            <option selected>Select Type</option>
+            <option  value="Super computer">Super Computer</option>
+            <option  value="Mainframe computer">Mainframe computer</option>
+            <option  value="Mini computer">Mini Computer</option>
+            <option  value="Workstation computer">Workstation Computer</option>
+            <option  value="Personal computer">Personal Computer</option>
+            <option  value="Server computer">Server Computer</option>
+            <option value="Analog computer">Analog Computer</option>
+
+        </select>
+
+    </div>
+
+    <div>
+
+        <label class="form-label">RAM:</label>
+        <select class="form-select" name="RAM" aria-label="Default select example">
+            <option selected>Select RAM</option>
+            <option  value="4.00 GB"> 4.00 GB</option>
+            <option value="8.00 GB">8.00 GB</option>
+            <option value="16.00 GB">16.00 GB</option>
+            <option  value="32.00 GB">32.00 GB</option>
+
+        </select>
+
+    </div>
+
+    <div>
+
+        <label  class="form-label">Hard Disk:</label>
+        <select class="form-select" name="Hard Disk" aria-label="Default select example">
+            <option selected>Select Hard Disk</option>
+            <option  value="SSD"> SSD</option>
+            <option  value="SATA">SATA</option>
+            <option  value="SATA HDD">SATA HDD</option>
+            <option value="SCSI">SCSI</option>
+
+        </select>
+
+    </div>
+
+    <div>
+
+        <label  class="form-label">Processor:</label>
+        <select class="form-select" name="Processor" aria-label="Default select example">
+            <option selected>Select Processor</option>
+            <option value="Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz   2.60 GHz"> Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz   2.60 GHz</option>
+            <option value="Intel(R) Core(TM) i5-10110U CPU @ 2.10GHz   2.60 GHz">Intel(R) Core(TM) i5-10110U CPU @ 2.10GHz   2.60 GHz</option>
+            <option  value="Intel(R) Core(TM) i7-10110U CPU @ 2.10GHz   2.60 GHz">Intel(R) Core(TM) i7-10110U CPU @ 2.10GHz   2.60 GHz</option>
+        </select>
+
+    </div>
+    <div>
+
+        <label  class="form-label">Generation:</label>
+        <select class="form-select" name="Generation" aria-label="Default select example">
+            <option selected>Select Generation</option>
+            <option  value="8th Gen"> 8th Gen</option>
+            <option  value="9th Gen">9th Gen</option>
+            <option  value="10th Gen">10th Gen</option>
+            <option  value="11th Gen">11th Gen</option>
+            <option  value="12th Gen">12th Gen</option>
+        </select>
+
+    </div>
+    <label  class="form-label">Motherboard:</label>
+    <select class="form-select" name="Motherboard" aria-label="Default select example">
+        <option selected>Select Motherboard</option>
+        <option  value="Standard ATX motherboard">Standard ATX motherboard</option>
+        <option value="Micro ATX motherboard">Micro ATX motherboard</option>
+        <option  value="eXtended ATX motherboard">eXtended ATX motherboard</option>
+        <option value="Flex ATX motherboard">Flex ATX motherboard</option>
+        <option  value="BTX motherboard">BTX motherboard</option>
+    </select>
+
+    </div>
+    </div>
+    <label  class="form-label">Cache size:</label>
+    <select class="form-select" name="Cache size" aria-label="Default select example">
+        <option selected>Select cache size</option>
+        <option  value="Associative mapping">Associative mapping</option>
+        <option  value="Associative cache mapping">Associative cache mapping</option>
+        <option  value="CPU cache">CPU cache</option>
+        <option value="Disk cache">Disk cache</option>
+        <option  value="L1 cache">L1 cache</option>
+    </select>
+
+    </div>
+    <div class="mb-3">
+        <label for="2" class="form-label">Price:</label>
+        <input type="text" name="Price" class="form-control" id="2" aria-describedby="emailHelp"
+               placeholder="Enter price here">
+        <div id="price" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+        <label for="3" class="form-label">Quantity:</label>
+        <input type="text" name="Quantity" class="form-control" id="3" aria-describedby="emailHelp"
+               placeholder="Enter Quantity here">
+        <div id="quantity" class="form-text"></div>
+    </div>
+    <input class="btn btn-primary" type="submit" value="Submit" >
+</form>
+</body>
+</html>
